@@ -1,1 +1,48 @@
 /* Styles for the Advanced Markup assignment. */
+
+html {
+	background: silver;
+	color: #303030;
+}
+
+nav ul li {
+	display: inline;
+}
+
+.active{
+	font-weight: bold;
+}
+
+#sidebar {
+ 	position: avoid-column;
+	top: 10px;
+	right: 30px;
+	width: 250px;
+	float: right;
+	background: lightgray;
+	margin: 20px;
+	padding: 10px;
+}
+
+.poem {
+	list-style-type: none;
+	font-size: large;
+	line-height: 1.8;
+	color: #303030;
+}
+ .bio-photo {
+	position: avoid-column;		
+	top: 10px;
+	right: 10px;
+	width: 240px;
+	float: left;
+	background: lightgray;
+	margin: 10px;
+	padding: 10px;
+ }
+
+.bio-photo img{
+	width: 230px;
+	height: auto;
+}
+
